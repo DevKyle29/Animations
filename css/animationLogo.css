@@ -1,17 +1,27 @@
-@keyframes animatedlinkedin {
-    0% {background-color: yellow;}
-    25% {background-color: aquamarine;}
-    50% {background-color: brown;}
-    100%{background-color: purple;}
+@keyframes divcolor {
+    0% {background-color: blue;
+    transform: translateY(200px);}
+    25% {background-color: yellow;}
+    50% {background-color: brown;
+    border-radius: 100%;}
+    100%{background-color: red;
+    transform:rotate(90deg);}
 }
 
 div{
     width: 200px;
-    height: 15x;
-    background-color: aqua;
-    animation-name:animatedlinkedin;
+    height: 200px;
+    background-color: white;
+    animation-name:divcolor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    filter: invert(2s);
-    transform: rotate(5);
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    filter: none;
+   }
+
+#img1{
+    height: 100px;
+    width: 100px;
+    
 }
