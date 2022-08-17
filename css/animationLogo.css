@@ -1,0 +1,17 @@
+@keyframes animatedlinkedin {
+    0% {background-color: yellow;}
+    25% {background-color: aquamarine;}
+    50% {background-color: brown;}
+    100%{background-color: purple;}
+}
+
+div{
+    width: 200px;
+    height: 15x;
+    background-color: aqua;
+    animation-name:animatedlinkedin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    filter: invert(2s);
+    transform: rotate(5);
+}
